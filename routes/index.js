@@ -1,7 +1,7 @@
 //routes/index.js
 const router = require('express').Router();
 const userRoutes = require('./api/userRoutes');
-const thoughtRoutes = require('./api/thoughtRoutes');
+const thoughtRoutes = require('./api/thoughtsRoutes');
 const reactionRoutes = require('./api/reactionRoutes');
 
 router.use('/users', userRoutes);

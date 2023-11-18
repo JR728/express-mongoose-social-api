@@ -1,6 +1,5 @@
 //models/user.js
 const mongoose = require('mongoose');
-const { isEmail } = require('validator');
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -13,7 +12,6 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-    validate: [isEmail, 'Invalid email address'],
   },
   thoughts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Thought' }],
   friends: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],

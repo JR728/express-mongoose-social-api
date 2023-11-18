@@ -1,4 +1,4 @@
-//routes/api/thoughtRoutes.js
+//routes/api/thoughtsRoutes.js
 const router = require('express').Router();
 const {
   getAllThoughts,
