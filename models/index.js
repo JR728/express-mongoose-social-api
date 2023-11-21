@@ -1,6 +1,6 @@
 //models/index.js
 const Thought = require('./thought');
 const User = require('./user');
-const ReactionSchema = require('./reaction'); 
+const Reaction = require('./reaction'); 
 
-module.exports = { Thought, User, ReactionSchema };
+module.exports = { Thought, User, Reaction };

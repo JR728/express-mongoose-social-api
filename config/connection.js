@@ -1,5 +1,4 @@
 //config/connection.js
-//config/connection.js
 const mongoose = require('mongoose');
 
 // Wrap Mongoose around local connection to MongoDB
